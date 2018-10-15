@@ -1,28 +1,28 @@
 {
-  "name": "wif",
+  "name": "wifgrs",
   "version": "2.0.6",
-  "description": "Bitcoin Wallet Import Format (WIF) decoding/encoding module",
+  "description": "Groestlcoin Wallet Import Format (WIF) decoding/encoding module",
   "author": "Daniel Cousens",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/wif.git"
+    "url": "https://github.com/groestlcoin/wifgrs.git"
   },
   "bugs": {
-    "url": "https://github.com/bitcoinjs/wif/issues"
+    "url": "https://github.com/groestlcoin/wifgrs/issues"
   },
-  "homepage": "https://github.com/bitcoinjs/wif",
+  "homepage": "https://github.com/groestlcoin/wifgrs",
   "keywords": [
-    "bitcoin",
+    "groestlcoin",
     "base58",
-    "base58check",
+    "base58grscheck",
     "decode",
     "decoding",
     "encoding",
     "encode",
     "key",
     "private",
-    "wif"
+    "wifgrs"
   ],
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "unit": "tape test/*.js"
   },
   "dependencies": {
-    "bs58check": "<3.0.0",
+    "bs58grscheck": "https://github.com/Groestlcoin/bs58grscheck.git",
     "safe-buffer": "^5.1.1"
   },
   "devDependencies": {
