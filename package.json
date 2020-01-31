@@ -33,7 +33,7 @@
     "unit": "tape test/*.js"
   },
   "dependencies": {
-    "bs58grscheck": "https://github.com/Groestlcoin/bs58grscheck.git",
+    "bs58grscheck": "^2.1.2",
     "safe-buffer": "^5.1.1"
   },
   "devDependencies": {
